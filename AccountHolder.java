@@ -1,8 +1,8 @@
 import java.lang.Math;
 
 abstract class AccountHolder{
-    private int ID;
-    private String address;
+    protected int ID;
+    protected String address;
 
     public AccountHolder(int ID, String address){
         this.ID = ID;
